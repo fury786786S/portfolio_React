@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
     <div className="contact container mt" id='contact'>
-    <h1>Contact Me</h1>
+    <h1 className=' text-light'>Contact Me</h1>
     <div className="contact-icon">
       <a href='https://www.instagram.com/the_fury____/' target='_blank' className="itemss">
         <FaInstagram  className='icons'/>

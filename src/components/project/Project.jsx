@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <>
       <div className="projects container my-3" id='project'>
-        <h1 className=' my-5'>Project</h1>
+        <h1 className=' my-5 text-light'>Project</h1>
         <div className="row d-flex justify-content-center align-items-center">
           {project.map((data) => (
             <>
