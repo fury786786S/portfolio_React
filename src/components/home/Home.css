@@ -20,7 +20,7 @@
    animation-iteration-count: infinite;
 }
 .resume {
-    background-color: rgb(70, 109, 227);
+    background-color: transparent;
     width: 550px;
     text-align: center;
     padding: 20px;
