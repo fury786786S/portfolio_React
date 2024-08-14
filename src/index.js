@@ -17,7 +17,6 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Home />
-    <Experience />
     <Skills />
     <Project />
     <Contact />
