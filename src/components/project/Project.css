@@ -42,3 +42,9 @@
       text-align: center;
     }
   }
+.imgs img {
+  transition: 1.5s;
+}
+.imgs img:hover {
+  transform: scale(1.1);
+}
