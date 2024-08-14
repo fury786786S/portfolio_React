@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Experience from './components/experience/Experience';
+import Skills from './components/skills/Skills';
+import Project from './components/project/Project';
+import Contact from './components/contact/Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Home />
+    <Experience />
+    <Skills />
+    <Project />
+    <Contact />
   </React.StrictMode>
 );
 

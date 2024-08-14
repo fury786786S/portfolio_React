@@ -1,0 +1,55 @@
+:root {
+    --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5)
+}
+.home {
+    height: 80vh;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img img {
+   height: 250px;
+   width: 250px;
+   border: 4px solid yellow;
+   border-radius: 100%;
+   animation-name: asu;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+.resume {
+    background-color: rgb(70, 109, 227);
+    width: 550px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    box-shadow :var(--box-shadow);
+} 
+/* @keyframes asu {
+    0%{
+        border-color: aqua;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px aqua;
+    }
+    25%{
+        border-color: rgb(48, 45, 234);
+        box-shadow: 10px 10px 100px 50px rgb(44, 33, 239);
+    }
+    50%{
+        border-color: rgb(225, 24, 74);
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 50px rgb(208, 22, 40);
+    }
+    75%{
+        border-color: rgb(138, 30, 226);
+        box-shadow: 10px 10px 100px 50px rgb(138, 30, 226);
+    }
+    100%{
+        border-color: rgb(241, 218, 18);
+        transform: translate(0,-0px);
+        box-shadow: 10px 10px 100px 50px rgb(224, 214, 39);
+    }   
+} */

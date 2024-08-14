@@ -1,0 +1,25 @@
+.contact-icon { 
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemss {
+    background-color: black;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid yellow;
+}
+.itemss:hover {
+    background-color: aqua;
+    box-shadow: 2px 5px 10px 2px skyblue;
+}
+.icons {
+    font-size: 1.5rem;
+}

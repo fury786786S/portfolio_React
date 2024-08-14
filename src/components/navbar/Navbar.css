@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-items {
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-items:hover {
+    border-bottom: 3px solid yellow;
+}
+.left {
+    cursor: pointer;
+}
+.left:hover {
+    border-bottom: 3px solid yellow;
+}
