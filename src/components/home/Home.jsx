@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Home.css'
-import pdf from '../../pdf/Front-end new CV.pdf'
+import pdf from '../../pdf/frontend_CV.pdf'
 import hero from '../data/hero.json'
 import Typed from 'typed.js'
 
@@ -26,7 +26,7 @@ const Home = () => {
     <div>
       <div className=" container home d-flex justify-content-between align-items-center" id='home'>
         <div className="resume">
-          <h1 className='text-light' ref={typedRef}>Lorem  adipisicing elit. Voluptate, fugiat?</h1>
+          <h1 className='text-light' ref={typedRef}></h1>
 
           <a href={pdf}  className=' btn btn-outline-warning my-4'>Resume</a>
         </div>

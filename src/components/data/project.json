@@ -4,15 +4,15 @@
         "title":"Eduction",
         "imageSrc":"aducation.png",
         "description":"THis project made with complete HTML,CSS",
-        "demo":"",
-        "source":""
+        "demo":"http://127.0.0.1:5500/1Asignment.html",
+        "source":"https://github.com/fury786786S/study-project.git"
     },
     {
         "key":"2",
         "title":"MovieNest",
         "imageSrc":"aducation.png",
         "description":"THis project made with complete Reactjs",
-        "demo":"https://portfolio-react-beta-eight.vercel.app/",
-        "source":"https://github.com/fury786786S/portfolio_React.git"
+        "demo":"",
+        "source":""
     }
 ]
