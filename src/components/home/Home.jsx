@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Home.css'
-import pdf from '../../pdf/frontend_CV.pdf'
+import pdf from '../../pdf/Frontend developer  (1).pdf'
 import hero from '../data/hero.json'
 import Typed from 'typed.js'
 
